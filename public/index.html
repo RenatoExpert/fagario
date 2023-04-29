@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			Agario
+		</title>
+	</head>
+	<body>
+		<noscript>
+			You need Javascript enabled to play this game!
+		</noscript>
+		<form>
+			<label for='name'>Name</label>
+			<input type='text' id='name'>
+			<label for='color'>Color</label>
+			<input type='text' id='color'>
+			<button onClick='play()'>Play</button>
+		</form>
+		<br>
+		<canvas id='mainframe' width='800' height='800'/>
+		<script src='script/main.js'></script>
+		<script src='script/render.js'></script>
+		<script src='script/network.js'></script>
+		<script src='script/controller.js'></script>
+	</body>
+</html>
