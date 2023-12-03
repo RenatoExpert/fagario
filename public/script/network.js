@@ -1,5 +1,5 @@
 //	network.js
-const serverURL = 'http://localhost:8888';
+const serverURL = 'http://192.168.1.24:8888';
 function update () {
 	if(attributes.isAlive) { 
 		socket = new XMLHttpRequest();

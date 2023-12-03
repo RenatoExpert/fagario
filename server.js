@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const http = require('http');
 
-const host = 'localhost';
+const host = '0.0.0.0';
 const port = 8888;
 
 var game_status = {};
